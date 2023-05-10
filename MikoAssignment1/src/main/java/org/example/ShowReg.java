@@ -21,7 +21,7 @@ public class ShowReg {
         AddReg addReg=new AddReg();
         ShowReg saw=new ShowReg();
         loadData.loadData();
-        System.out.println(map);
+       // System.out.println(map);
         while(true){
             String input=sc.nextLine().toUpperCase();
             String[]  inputs=input.split(",\\s*|\\s+");
